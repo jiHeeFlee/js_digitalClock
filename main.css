@@ -17,7 +17,11 @@
 
 body{
     /* background-color: #fff; */
-    background-color: #3843d0;
+    /* background-color: #3843d0; */
+    background-color: white;
+
+    background-color: whitesmoke;
+    /* background-color: black; */
 
     margin : 0;
     height: 100vh;
@@ -43,7 +47,7 @@ body{
     font-family: 'LOTTERIACHAB';
     font-size: 120px;
     font-weight: normal;
-    color: #3843d0;
+    color: #ffc466;
 
     margin: 0;
     padding: 30px;
@@ -61,9 +65,10 @@ body{
     flex-direction: column;
     text-align: center;
     background-color: white;
-    border: 5px solid white;
+    /* border: 10px solid #f9623e; */
     /* border-style: 10px dotted white; */
-    border-radius: 18px;
+    /* border-radius: 18px; */
+    border-radius: 30px;
 }
   
 .today {
