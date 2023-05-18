@@ -16,44 +16,57 @@
 }
 
 body{
-    background-color: #fff;
+    /* background-color: #fff; */
+    background-color: #3843d0;
 
     margin : 0;
-    /* height: 100vh; */
+    height: 100vh;
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column; */
     justify-content: center;
     align-items: center;
 }
 
 .date{
     font-family: 'LOTTERIACHAB';
-    font-size: 200px;
+    font-size: 75px;
+    /* color: #3843d0; */
+    color: black;
     color: #3843d0;
+
+    margin: 0;
+    padding: 30px;
 
 }
 
 .time {
     font-family: 'LOTTERIACHAB';
-    font-size: 150px;
+    font-size: 120px;
     font-weight: normal;
-    color: #ffc466;
+    color: #3843d0;
+
+    margin: 0;
+    padding: 30px;
+
+    margin-top: 10px;
 }
-/* 
+
   
-  .clock {
+.clock {
     min-width: 360px;
     margin: 0 auto;
-    padding: 50px 0;
+    padding: 50px;
+
+    display: flex;
+    flex-direction: column;
     text-align: center;
-    border: 1px solid white;
+    background-color: white;
+    border: 5px solid white;
+    /* border-style: 10px dotted white; */
     border-radius: 18px;
-  }
+}
   
-  .today {
-    margin-bottom: 10px;
-  }
+.today {
+  margin-bottom: 10px;
+}
   
-  .time {
-    margin-top: 10px;
-  } */

@@ -9,7 +9,7 @@ function setClock(){
     var date = dateInfo.getDate();
 
     document.getElementById("time").innerHTML = hour + " : " + min + " : " + sec;
-    document.getElementById("date").innerHTML = year + "년" + month + "월"+ date + "일";
+    document.getElementById("date").innerHTML = year + "년 " + month + "월 "+ date + "일";
 }
 
 function modifyNumber(time){
